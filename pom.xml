@@ -41,16 +41,17 @@
 		    <id>nexusRepo</id>
 		    <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
 		 </snapshotRepository>
-		
 		<repository>
-  <id>mydevops-feed</id>
+		<id>nexusRepo</id>
+		<url>http://35.173.124.42:8081/repository/nexsusrepo/</url>	
+  <!-- <id>mydevops-feed</id>
   <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mydevops-feed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
   <snapshots>
     <enabled>true</enabled>
-  </snapshots>
+  </snapshots> -->
 </repository>
   	</distributionManagement>
 	
